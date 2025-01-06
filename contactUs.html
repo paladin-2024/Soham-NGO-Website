@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SOHAM|Smile of hope</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    
+    <!-- Hero Section -->
+    <section class="contact">
+        <h2>Contact US!</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name"
+                    class="item" autocomplete="off">
+                    <div class="error-txt">Full Name required</div>
+                </div>
+
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email"
+                    class="item" autocomplete="off">
+                    <div class="error-txt">Email Address required</div>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone Number" id="phone"
+                    class="item" autocomplete="off">
+                    <div class="error-txt">Phone Number required</div>
+                </div>
+
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject"
+                    class="item" autocomplete="off">
+                    <div class="error-txt">Subject required</div>
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Message required</div>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
